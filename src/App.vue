@@ -2,16 +2,19 @@
     <div id="app">
         <img alt="Vue logo" src="./assets/logo.png" />
         <HelloWorld :msg="testData" />
+        <tf-data />
     </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import TfData from './components/TfData.vue'
 
 export default {
     name: 'App',
     components: {
-        HelloWorld
+        HelloWorld,
+        TfData
     },
     data() {
         return {

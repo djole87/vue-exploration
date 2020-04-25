@@ -1,12 +1,12 @@
 <template>
     <div class="hello">
         <p>
-            <label for="name">Lion:</label>
-            <input id="name" v-model="msg.lion.eats" />
+            <label for="lion">Lion:</label>
+            <input id="lion" v-model="msg.lion.eats" />
         </p>
         <p>
-            <label for="name">Rabbit:</label>
-            <input id="name" v-model="msg.rabbit.eats" />
+            <label for="rabbit">Rabbit:</label>
+            <input id="rabbit" v-model="msg.rabbit.eats" />
         </p>
         <p>Lion: {{ msg.lion.eats }}</p>
         <p>Rabbit: {{ msg.rabbit.eats }}</p>

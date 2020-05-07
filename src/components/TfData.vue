@@ -16,7 +16,7 @@
         <p>Rabbit: {{ msg.rabbit.eats }}</p>-->
     </div>
 </template>
-                
+
 <script>
 import * as tfjsUtils from '../utils/TfJsUtils.js'
 
@@ -65,7 +65,7 @@ export default {
                 .then(result => {
                     console.log('3.')
                     session = result
-                    return result
+                    return session
                 })
                 .then(session => {
                     console.log('4.')
